@@ -1,0 +1,13 @@
+.box {
+    background-color: #fca100;
+    width: 100%;
+    margin-top: auto
+}
+
+.footerText {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 10px 1px;
+}

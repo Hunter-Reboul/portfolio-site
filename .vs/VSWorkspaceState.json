@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\app\\components"
   ],
-  "SelectedNode": "\\public",
+  "SelectedNode": "\\src\\app\\root.module.css",
   "PreviewInSolutionExplorer": false
 }

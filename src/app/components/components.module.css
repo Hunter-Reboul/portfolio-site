@@ -1,13 +1,75 @@
-.box {
+.footerBox {
     background-color: #fca100;
     width: 100%;
-    margin-top: auto
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
 }
 
-.footerText {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
+.footerContainer {
+    width: 800px;
+        
+    display: grid;
+    grid-template:
+        'contact socials'
+        'email linkedin'
+        'phone github'
+        'copyright copyright'
+}
+
+.contactText {
+    grid-area: contact;
+    font-size: 40px;
     text-align: center;
     color: white;
-    padding: 10px 1px;
+    padding: 20px 0px 15px;
+}
+
+.emailText {
+    grid-area: email;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 0px 0px 10px;
+}
+
+.phoneText {
+    grid-area: phone;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 0px 0px 10px;
+}
+
+
+.socialsText {
+    grid-area: socials;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 15px;
+}
+
+.linkedinText {
+    grid-area: linkedin;
+    text-align: center;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 0px 0px 10px;
+}
+
+.githubText {
+    grid-area: github;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 0px 10px;
+}
+
+.copyrightText {
+    grid-area: copyright;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.9);
+    padding: 5px 0px;
+    margin: 25px 0px;
 }

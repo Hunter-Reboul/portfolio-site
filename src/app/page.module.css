@@ -4,7 +4,7 @@
 
 .title {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Franklin Gothic Heavy, sans-serif;
     padding: 30px 0px;
 
     background-color: #fca100;
@@ -24,9 +24,12 @@
 
 .skillsContainer {
     display: flex;
-    padding: 50px 0px;
-    mix-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 1200px;
     max-width: 2000px;
+    height: 100px;
 }
 
 .profile {
@@ -44,6 +47,25 @@
     margin: auto 0px;
     margin: 10px;
     margin-left: 3vw;
+}
+
+.techSkill {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    margin: 0px 2vw;
+}
+
+.techSkillIcon {
+    float: left;
+    height: inherit;
+}
+
+.techSkillName {
+    margin: 0px 5px;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
 }
 
 @media (max-width: 1325px) {

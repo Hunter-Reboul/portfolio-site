@@ -1,9 +1,8 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
     return (
-        <div className={styles.page}>
+        <main className={styles.page}>
             <h1 className={styles.title}>Hunter Reboul - Software Engineer</h1>
             <div className={styles.introContainer}>
                 <p className={styles.pageText}>
@@ -20,7 +19,25 @@ export default function Home() {
                 />
             </div>
             <div className={styles.skillsContainer}>
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/C_Sharp_Logo.png"
+                        alt="The logo for the programming language, C# (C-Sharp)."
+                    />
+                    <p className={styles.techSkillName}>
+                        C Sharp
+                    </p>
+                </div>
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/C_Sharp_Logo.png"
+                        alt="The logo for the programming language, C# (C-Sharp)."
+                    />
+                    <p className={styles.techSkillName}>
+                        C-Sharp
+                    </p>
+                </div>
             </div>
-        </div>
+        </main>
     );
 }

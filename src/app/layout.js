@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import styles from "./root.module.css";
@@ -18,6 +17,8 @@ export default function RootLayout({ children }) {
             <body>
                 <div className={styles.container}>
                     {children}
+                </div>
+                <div className={styles.footer}>
                     <Footer />
                 </div>
             </body>

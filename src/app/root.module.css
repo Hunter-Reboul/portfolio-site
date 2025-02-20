@@ -1,6 +1,10 @@
 .container {
     background-color: #f7d394;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    position: relative;
+    margin-top: auto;
 }

@@ -1,7 +1,6 @@
 .footerBox {
     background-color: #fca100;
     width: 100%;
-    margin-top: auto;
     display: flex;
     justify-content: center;
 }

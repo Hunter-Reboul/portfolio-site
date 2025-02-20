@@ -18,6 +18,7 @@ export default function Home() {
                     alt="An image of Hunter Reboul smiling at the camera while holding up a Varjo XR-3 headset."
                 />
             </div>
+            <h2 className={styles.skillsTitle}>I am able to provide high-quality solutions using...</h2>
             <div className={styles.skillsContainer}>
                 <div className={styles.techSkill}>
                     <img className={styles.techSkillIcon}
@@ -30,11 +31,57 @@ export default function Home() {
                 </div>
                 <div className={styles.techSkill}>
                     <img className={styles.techSkillIcon}
-                        src="/C_Sharp_Logo.png"
-                        alt="The logo for the programming language, C# (C-Sharp)."
+                        src="/Unity_Logo.png"
+                        alt="The logo for the game engine, Unity."
                     />
                     <p className={styles.techSkillName}>
-                        C-Sharp
+                        Unity
+                    </p>
+                </div>
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/C++_Logo.png"
+                        alt="The logo for the programming language, C++."
+                    />
+                    <p className={styles.techSkillName}>
+                        C/C++
+                    </p>
+                </div>
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/React_Logo.png"
+                        alt="The logo for the web framework, React."
+                    />
+                    <p className={styles.techSkillName}>
+                        React
+                    </p>
+                </div>
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/Java_Logo.png"
+                        alt="The logo for the programming language, Java."
+                    />
+                    <p className={styles.techSkillName}>
+                        Java
+                    </p>
+                </div>
+                
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/Python_Logo.png"
+                        alt="The logo for the programming language, Python."
+                    />
+                    <p className={styles.techSkillName}>
+                        Python
+                    </p>
+                </div>
+                <div className={styles.techSkill}>
+                    <img className={styles.techSkillIcon}
+                        src="/JavaScript_Logo.png"
+                        alt="The logo for the programming language, JavaScript."
+                    />
+                    <p className={styles.techSkillName}>
+                        JavaScript
                     </p>
                 </div>
             </div>

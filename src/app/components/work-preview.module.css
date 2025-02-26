@@ -1,20 +1,8 @@
-.page {
-    position: relative;
-}
-
-.title {
-    text-align: center;
-    font-family: Franklin Gothic Heavy, sans-serif;
-    font-size: 64px;
-    margin: 30px 0px;
-}
-
 .workSampleContainer {
     display: grid;
     align-items: center;
     grid-template-columns: auto auto;
     margin: auto;
-    width: 1000px;
     padding: 5px 20px;
 }
 
@@ -54,7 +42,7 @@
     transform: translate(-50%, -50%);
 }
 
-.workSampleOutlineRight {
+.workSampleOutline {
     float: left;
     font-family: Arial, sans-serif;
     font-size: 24px;

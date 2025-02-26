@@ -1,0 +1,17 @@
+.techSkill {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.techSkillIcon {
+    float: left;
+    height: inherit;
+}
+
+.techSkillName {
+    margin: 0px 5px;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}

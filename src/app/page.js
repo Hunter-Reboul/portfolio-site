@@ -1,4 +1,6 @@
 import styles from "./home.module.css";
+import TechSkill from "@/app/components/TechSkill";
+import WorkPreview from "@/app/components/WorkPreview";
 
 export default function Home() {
     return (
@@ -20,70 +22,34 @@ export default function Home() {
             </div>
             <h2 className={styles.skillsTitle}>I am able to provide high-quality solutions using...</h2>
             <div className={styles.skillsContainer}>
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/C_Sharp_Logo.png"
-                        alt="The logo for the programming language, C# (C-Sharp)."
-                    />
-                    <p className={styles.techSkillName}>
-                        C Sharp
-                    </p>
-                </div>
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/Unity_Logo.png"
-                        alt="The logo for the game engine, Unity."
-                    />
-                    <p className={styles.techSkillName}>
-                        Unity
-                    </p>
-                </div>
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/C++_Logo.png"
-                        alt="The logo for the programming language, C++."
-                    />
-                    <p className={styles.techSkillName}>
-                        C/C++
-                    </p>
-                </div>
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/React_Logo.png"
-                        alt="The logo for the web framework, React."
-                    />
-                    <p className={styles.techSkillName}>
-                        React
-                    </p>
-                </div>
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/Java_Logo.png"
-                        alt="The logo for the programming language, Java."
-                    />
-                    <p className={styles.techSkillName}>
-                        Java
-                    </p>
-                </div>
-                
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/Python_Logo.png"
-                        alt="The logo for the programming language, Python."
-                    />
-                    <p className={styles.techSkillName}>
-                        Python
-                    </p>
-                </div>
-                <div className={styles.techSkill}>
-                    <img className={styles.techSkillIcon}
-                        src="/JavaScript_Logo.png"
-                        alt="The logo for the programming language, JavaScript."
-                    />
-                    <p className={styles.techSkillName}>
-                        JavaScript
-                    </p>
-                </div>
+                <TechSkill image="/C_Sharp_Logo.png" name="C Sharp"
+                    altText="The logo for the programming language, C# (C-Sharp)." />
+                <TechSkill image="/Unity_Logo.png" name="Unity"
+                    altText="The logo for the game engine, Unity." />
+                <TechSkill image="/C++_Logo.png" name="C/C++"
+                    altText="The logo for the programming language, C++." />
+                <TechSkill image="/React_Logo.png" name="React"
+                    altText="The logo for the web framework, React." />
+                <TechSkill image="/Java_Logo.png" name="Java"
+                    altText="The logo for the programming language, Java." />
+                <TechSkill image="/Python_Logo.png" name="Python"
+                    altText="The logo for the programming language, Python." />
+                <TechSkill image="/JavaScript_Logo.png" name="JavaScript"
+                    altText="The logo for the programming language, JavaScript." />
+            </div>
+            <h2 className={styles.workPreviewsTitle}>Samples of My Work</h2>
+            <div className={styles.workPreviewsContainer}>
+                <WorkPreview
+                    link="/VitalXR-Virtual-Login-Page-Environment"
+                    image="/work-samples/VitalXR-Profile.png"
+                    altText="The profile image for the VitalXR Virtual Login Page & Environment Sample. 
+                            Displays two virtual hands over a virtual keyboard with a floating blue login page
+                            with the words 'Enter your credentials' at the top."
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
+                    Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
+                    Nunc tincidunt consequat nisl sed pellentesque."
+                />
             </div>
         </main>
     );

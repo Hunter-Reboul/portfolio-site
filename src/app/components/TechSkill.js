@@ -1,4 +1,4 @@
-import styles from "./skills.module.css";
+import styles from "./techSkills.module.css";
 
 export default function TechSkill({ image, name, altText }) {
     return (

@@ -40,6 +40,17 @@ export default function Home() {
             <h2 className={styles.workSamplesTitle}>Samples of My Work</h2>
             <div className={styles.workSamplesContainer}>
                 <WorkSample
+                    link="/User-Task-Creation-Application"
+                    image="/work-samples/UserTaskCreation-Profile.png"
+                    altText="The profile image for the User Task Creation Application Sample."
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
+                    Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
+                    Nunc tincidunt consequat nisl sed pellentesque."
+                />
+            </div>
+            <div className={styles.workSamplesContainer}>
+                <WorkSample
                     link="/VitalXR-Virtual-Login-Page-Environment"
                     image="/work-samples/VitalXR-Profile.png"
                     altText="The profile image for the VitalXR Virtual Login Page & Environment Sample. 

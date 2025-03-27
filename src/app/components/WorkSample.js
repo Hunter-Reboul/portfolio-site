@@ -1,7 +1,7 @@
-import styles from "./work-preview.module.css";
+import styles from "./work-sample.module.css";
 import Link from "next/link";
 
-export default function WorkPreview({ link, image, altText, description }) {
+export default function WorkSample({ link, image, altText, description }) {
     return (
         <div className={styles.workSampleContainer}>
             <Link href={link}>

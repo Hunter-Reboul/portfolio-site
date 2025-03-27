@@ -9,3 +9,19 @@
     margin: 30px 0px;
     padding: 0px 20px;
 }
+
+.carousel {
+    text-align: center;
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.slideImage {
+    height: 500px;
+}
+
+.description {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1.25em;
+}

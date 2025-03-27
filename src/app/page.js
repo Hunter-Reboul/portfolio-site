@@ -1,6 +1,6 @@
 import styles from "./home.module.css";
 import TechSkill from "@/app/components/TechSkill";
-import WorkPreview from "@/app/components/WorkPreview";
+import WorkSample from "@/app/components/WorkSample";
 
 export default function Home() {
     return (
@@ -37,9 +37,9 @@ export default function Home() {
                 <TechSkill image="/JavaScript_Logo.png" name="JavaScript"
                     altText="The logo for the programming language, JavaScript." />
             </div>
-            <h2 className={styles.workPreviewsTitle}>Samples of My Work</h2>
-            <div className={styles.workPreviewsContainer}>
-                <WorkPreview
+            <h2 className={styles.workSamplesTitle}>Samples of My Work</h2>
+            <div className={styles.workSamplesContainer}>
+                <WorkSample
                     link="/VitalXR-Virtual-Login-Page-Environment"
                     image="/work-samples/VitalXR-Profile.png"
                     altText="The profile image for the VitalXR Virtual Login Page & Environment Sample. 

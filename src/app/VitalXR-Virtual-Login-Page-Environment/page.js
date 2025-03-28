@@ -1,9 +1,11 @@
 import styles from "./vitalxr.module.css";
 import { Carousel, CarouselItem } from 'react-bootstrap';
+import BackButton from "@/app/components/BackButton.js";
 
 export default function Page() {
     return (
         <main className={styles.page}>
+            <BackButton/>
             <h1 className={styles.title}>VitalXR Virtual Login Page & Environment</h1>
             <Carousel className={styles.carousel} interval={5000}>
                 <CarouselItem>

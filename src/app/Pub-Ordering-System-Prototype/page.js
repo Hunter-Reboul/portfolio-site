@@ -1,9 +1,11 @@
 import styles from "./pubOrdering.module.css";
 import { Carousel, CarouselItem } from 'react-bootstrap';
+import BackButton from "@/app/components/BackButton.js";
 
 export default function Page() {
     return (
         <main className={styles.page}>
+            <BackButton/>
             <h1 className={styles.title}>Pub Ordering System Prototype</h1>
             <Carousel className={styles.carousel} interval={5000}>
                 <CarouselItem>

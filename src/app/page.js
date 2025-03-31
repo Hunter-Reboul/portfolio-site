@@ -44,10 +44,7 @@ export default function Home() {
                     image="/work-samples/UserTaskCreation-Profile.png"
                     altText="The profile image for the User Task Creation Application sample."
                     title="User Task Creation Application"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
-                    Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
-                    Nunc tincidunt consequat nisl sed pellentesque."
+                    description="Improvements to a simple task creation application."
                 />
             </div>
             <div className={styles.workSamplesContainer}>
@@ -56,10 +53,8 @@ export default function Home() {
                     image="/work-samples/VitalXR-Profile.png"
                     altText="The profile image for the VitalXR Virtual Login Page & Environment sample. "
                     title="VitalXR Virtual Login Page & Environment"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
-                    Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
-                    Nunc tincidunt consequat nisl sed pellentesque."
+                    description="An award-winning login page and environment made in virtual reality, made
+                    for a surgery simulation company."
                 />
             </div>
             <div className={styles.workSamplesContainer}>
@@ -68,10 +63,8 @@ export default function Home() {
                     image="/work-samples/PubOrderingPrototype-Profile.png"
                     altText="The profile image for the Pub Ordering System Prototype sample."
                     title="Pub Ordering System Prototype"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
-                    Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
-                    Nunc tincidunt consequat nisl sed pellentesque."
+                    description="A prototype for a tablet app that automates many actions a customer makes
+                    at a pub."
                 />
             </div>
         </main>

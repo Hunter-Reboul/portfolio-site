@@ -54,9 +54,7 @@ export default function Home() {
                 <WorkSample
                     link="/VitalXR-Virtual-Login-Page-Environment"
                     image="/work-samples/VitalXR-Profile.png"
-                    altText="The profile image for the VitalXR Virtual Login Page & Environment sample. 
-                            Displays two virtual hands over a virtual keyboard with a floating blue login page
-                            with the words 'Enter your credentials' at the top."
+                    altText="The profile image for the VitalXR Virtual Login Page & Environment sample. "
                     title="VitalXR Virtual Login Page & Environment"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.

@@ -43,6 +43,7 @@ export default function Home() {
                     link="/User-Task-Creation-Application"
                     image="/work-samples/UserTaskCreation-Profile.png"
                     altText="The profile image for the User Task Creation Application sample."
+                    title="User Task Creation Application"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
                     Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
@@ -56,6 +57,7 @@ export default function Home() {
                     altText="The profile image for the VitalXR Virtual Login Page & Environment sample. 
                             Displays two virtual hands over a virtual keyboard with a floating blue login page
                             with the words 'Enter your credentials' at the top."
+                    title="VitalXR Virtual Login Page & Environment"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
                     Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.
@@ -67,6 +69,7 @@ export default function Home() {
                     link="/Pub-Ordering-System-Prototype"
                     image="/work-samples/PubOrderingPrototype-Profile.png"
                     altText="The profile image for the Pub Ordering System Prototype sample."
+                    title="Pub Ordering System Prototype"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque vel volutpat orci. Morbi nisi metus, gravida id convallis eget, venenatis sit amet ex.
                     Donec volutpat dui sed dolor pharetra, nec porttitor leo posuere.

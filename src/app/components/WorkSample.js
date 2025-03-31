@@ -1,7 +1,7 @@
 import styles from "./work-sample.module.css";
 import Link from "next/link";
 
-export default function WorkSample({ link, image, altText, description }) {
+export default function WorkSample({ link, image, altText, title, description }) {
     return (
         <div className={styles.workSampleContainer}>
             <Link href={link}>
@@ -15,9 +15,14 @@ export default function WorkSample({ link, image, altText, description }) {
                     </div>
                 </div>
             </Link>
-            <p className={styles.workSampleOutline}>
-                {description}
-            </p>
+            <div className={styles.workSampleTextContainer}>
+                <h1 className={styles.workSampleTitle}>
+                    {title}
+                </h1>
+                <p className={styles.workSampleOutline}>
+                    {description}
+                </p>
+            </div>
         </div>
     );
 }

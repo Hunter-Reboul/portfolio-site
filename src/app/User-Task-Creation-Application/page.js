@@ -53,9 +53,19 @@ export default function Page() {
             </Carousel>
             <div className={styles.description}>
                 <p>
-                    In March 2025, I received an opportunity to be hired for a front-end focused, Full Stack Engineer position.
-                    As part of the application process, I was given a take-home assignment to update a barebones version of a task creation
-                    web application.
+                    As part of the application process for a front-end-focused Full Stack Engineer role, I was given a take-home assignment to enhance
+                    a basic task creation web application with customer-requested features. While there was no strict deadline, a one-week completion
+                    timeframe was recommended.
+                </p>
+                <p>
+                    This project was particularly challenging as I had never worked with Angular or Nx before, and it had been some time since I had
+                    written automated tests. Over the course of the week, I quickly ramped up on Angular, Angular Material, and Jest, while also pushing
+                    myself further by learning Cypress and Visual Testing to complete a bonus requirement.
+                </p>
+                <p>
+                    In the end, I successfully implemented all required features and most bonus features, with full test coverage. This project showcases
+                    my ability to rapidly learn new technologies, adapt under pressure, and deliver high-quality work within tight deadlines. Additionally,
+                    it strengthened my skills in modern web development, making me a more versatile engineer.
                 </p>
             </div>
         </main>

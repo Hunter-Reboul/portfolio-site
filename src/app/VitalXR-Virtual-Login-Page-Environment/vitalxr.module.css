@@ -28,3 +28,9 @@
     min-width: 1200px;
     max-width: 1600px;
 }
+
+.subSectionTitle {
+    font-family: Franklin Gothic Demi, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}

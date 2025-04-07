@@ -53,19 +53,36 @@ export default function Page() {
             </Carousel>
             <div className={styles.description}>
                 <p>
+                    A web application for users to create and track tasks.
+                </p>
+                <h2 className={styles.subSectionTitle}>Background</h2>
+                <p>
                     As part of the application process for a front-end-focused Full Stack Engineer role, I was given a take-home assignment to enhance
                     a basic task creation web application with customer-requested features. While there was no strict deadline, a one-week completion
                     timeframe was recommended.
                 </p>
                 <p>
+                    The assignment included a few required features, such as completing the task adding feature and implementing the unfinished filters.
+                    There were also some bonus features, like adding the ability to set a date when adding the task, and improving the UX however I saw fit.
+                    Automated tests were also required for all implemented features.
+                </p>
+                <h2 className={styles.subSectionTitle}>What I Did</h2>
+                <p>
                     This project was particularly challenging as I had never worked with Angular or Nx before, and it had been some time since I had
                     written automated tests. Over the course of the week, I quickly ramped up on Angular, Angular Material, and Jest, while also pushing
-                    myself further by learning Cypress and Visual Testing to complete a bonus requirement.
+                    myself further by learning Cypress and Visual Testing for the UX improvements.
                 </p>
                 <p>
-                    In the end, I successfully implemented all required features and most bonus features, with full test coverage. This project showcases
-                    my ability to rapidly learn new technologies, adapt under pressure, and deliver high-quality work within tight deadlines. Additionally,
-                    it strengthened my skills in modern web development, making me a more versatile engineer.
+                    A notable change I made was updating the application from Material 2 to Material 3, allowing me to modify the style and create animations
+                    for the Angular UI components much easier. 
+                </p>
+                <h2 className={styles.subSectionTitle}>The Result</h2>
+                <p>
+                    In the end, I successfully implemented all required features and most bonus features, with full test coverage. My ability to rapidly learn
+                    new technologies and adapt under pressure aided me in delivering the project within a tight deadline.
+                </p>
+                <p>
+                    Additionally, working on this application strengthened my skills in modern web development, making me a more versatile engineer.
                 </p>
             </div>
         </main>

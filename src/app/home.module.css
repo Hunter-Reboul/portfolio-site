@@ -2,14 +2,6 @@
     position: relative;
 }
 
-.title {
-    text-align: center;
-    font-family: Franklin Gothic Heavy, sans-serif;
-    padding: 30px 0px;
-
-    background-color: #fca100;
-}
-
 .skillsTitle {
     text-align: center;
     font-family: Franklin Gothic Heavy, sans-serif;
@@ -30,10 +22,19 @@
     grid-template-columns: 50% 50%;
     margin: auto;
     min-width: 800px;
-    max-width: 1600px;
+    max-width: 1560px;
     min-height: 500px;
     max-height: 1000px;
     padding: 5px 20px;
+}
+
+.introTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 10px;
+    margin-left: 3vw;
 }
 
 .skillsContainer {
@@ -55,33 +56,46 @@
     max-width: 1500px;
 }
 
-.profile {
-    float: left;
-    margin: 20px 0px;
-    width: 30vw;
-    max-width: 650px;
+.introGreeting {
+    text-align: center;
+    font-family: Franklin Gothic Heavy, sans-serif;
+    font-size: 4em;
+
+    padding-bottom: 10px;
 }
 
-.pageText {
+.introDescription {
     float: right;
     font-family: Arial, sans-serif;
     font-size: 1.5vw;
     text-align: center;
-    margin: 10px;
-    margin-left: 3vw;
+}
+
+.profile {
+    float: left;
+    margin: 20px 0px;
+    width: 30vw;
+    min-width: 395px;
+    max-width: 576px;
+}
+
+@media (min-width: 1920px) {
+    .introDescription {
+        font-size: 28.8px;
+    }
+    .introTextContainer {
+        margin-left: 57.60px;
+    }
 }
 
 @media (max-width: 1325px) {
-    .profile {
-        width: 395px;
-    }
-    .pageText {
+    .introDescription {
         font-size: 20px;
     }
 }
 
 @media (max-width: 900px) {
-    .pageText {
+    .introTextContainer {
         margin-left: 10px;
     }
 }

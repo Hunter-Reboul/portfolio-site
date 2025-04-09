@@ -1,6 +1,7 @@
 .container {
     background-color: #f7d394;
     flex: 1 0 auto;
+    color: black;
 }
 
 .footer {
